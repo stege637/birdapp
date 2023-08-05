@@ -1,5 +1,5 @@
 async function getapi() {
-    const response = await fetch('https://stege637.github.io/assignment1/nzbird.json');
+    const response = await fetch('http://127.0.0.1:5500/nzbird.json');
     var data = await response.text();
     let jsonData = JSON.parse(data);
     loadAllBirds(jsonData);
