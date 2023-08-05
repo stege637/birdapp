@@ -1,0 +1,196 @@
+.container{
+    width: 97vw;
+    height: 97vh;
+    display: grid;
+    grid-template-columns: 0.5fr 0.7fr 0.7fr 0.3fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.bird{
+    background-color: rgb(194, 218, 255);
+    width: 350px;
+    border: 3px solid black;
+}
+
+.bird-name{
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: bold;
+    z-index: 1;
+    position: relative;
+}
+
+.bird-order{
+    font-size: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 1;
+    position: relative;
+}
+
+.bird-family{
+    font-size: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 1;
+    position: relative;
+}
+
+.bird-length{
+    font-size: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 1;
+    position: relative;
+}
+
+.side{
+    border: 3px solid black;
+    z-index: 0.2;
+    position: fixed;
+    background-color: aliceblue;
+    height: 100vh;
+    top: -10px;
+    left: 0px;
+    padding: 10px;
+    width: 20%;
+}
+
+.bird-weight{
+    font-size: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 1;
+    position: relative;
+}
+
+.bird-other-names{
+    font-size: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 1;
+    position: relative;
+}
+
+.bird-status{
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 1;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+
+.bird-photo-cred{
+    font-size: large;
+    z-index: 1;
+    position: relative;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 100px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(204, 253, 253);
+}
+
+.bird-photo{
+    height: 250px;
+    position: relative;
+    height: 353px;
+    width: 350px;
+    top: -12px;
+    max-height: 353px;
+    z-index: 0.2;
+}
+
+header{
+    background-color: #2196f3;
+    z-index: 1;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    padding: 10px;
+    border: 3px solid black;
+    position: relative;
+    left: 0px;
+    top: -10px;
+    width: 96vw;
+}
+
+footer{
+    background-color: #2196f3;
+    z-index: 1;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 5; 
+    padding: 10px;
+    border: 3px solid black;
+}
+
+.text{
+    background-color: rgb(18, 116, 146);
+    position: relative;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    top: 10%;
+    border: black 3px solid;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.one{
+    background-color: #02a028;
+}
+
+.two{
+    background-color: #649a31;
+}
+
+.three{
+    background-color: #99cb68;
+}
+
+.four{
+    background-color: #fecc33;
+}
+
+.five{
+    background-color: #fe9a01;
+}
+
+.six{
+    background-color: #c26967;
+}
+
+.seven{
+    background-color: #9b0000;
+}
+
+.eight{
+    background-color: #660032;
+}
+
+.nine{
+    background-color: #320033;
+}
+
+.ten{
+    background-color: black;
+}
+
+.eleven{
+    background-color: black;
+}
+
+#bird-cat{
+    
+}

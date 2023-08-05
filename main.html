@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="server.js" ></script>
+    <link href="style.css" rel="stylesheet">
+    <title>Birds of Aotearoa</title>
+</head>
+<body>
+    <div class="container">
+        <header>Birds of Aotearoa</header>
+        <div class="side">
+            <div class="text">
+            <p>
+                <label for="bsearch">Search:</label>
+                <input type="search" id="bsearch" name="bsearch">
+            </p>
+            <p>
+                <label>Conservation Status:</label>
+
+                <select id="bird-cat">
+                    <option value="Not Threatened">Not Threatened</option>
+                    <option value="Naturally Uncommon">Naturally Uncommon</option>
+                    <option value="Relict">Relict</option>
+                    <option value="Recovering">Recovering</option>
+                    <option value="Declining">Declining</option>
+                    <option value="Nationally Increasing">Nationally Increasing</option>
+                    <option value="Nationally Vulnerable">Nationally Vulnerable</option>
+                    <option value="Nationally Endangered">Nationally Endangered</option>
+                    <option value="Nationally Critical">Nationally Critical</option>
+                    <option value="Extinct black">Extinct black</option>
+                    <option value="Data Deficient">Data Deficient</option>
+                </select>
+                
+            </p>
+            <p>
+                <label>Sort by:</label>
+
+                <select id="bird-cat">
+                    <option value="Light-Heavy">Lightest To Heaviest</option>
+                    <option value="Heavy-Light">Heaviest To Lightest</option>
+                </select>
+            </p>
+            <P>
+                Filter Results
+            </P>
+            <p class="one">
+                Not Threatened
+            </p>
+            <p class="two">
+                Naturally Uncommon
+            </p>
+            <p class="three">
+                Relict
+            </p>
+            <p class="four">
+                Recovering
+            </p>
+            <p class="five">
+                Declining
+            </p>
+            <p class="six">
+                Nationally Increasing
+            </p>
+            <p class="seven">
+                Nationally Vulnerable
+            </p>
+            <p class="eight">
+                Nationally Endangered
+            </p>
+            <p class="nine">
+                Nationally Critical
+            </p>
+            <p class="ten">
+                Extinct	black	
+            </p>
+            <p class="eleven">
+                Data Deficient
+            </p>
+        </div>
+            
+        </div>
+        <div class="content" id="photos">
+
+        </div>
+        <footer>Data licensed from https://www.birdsnz.org.nz/ for educational use within the University of Otago</footer>
+    </div>
+</body>
+</html>
